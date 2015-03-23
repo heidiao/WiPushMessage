@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wistron.pushmessage.server"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="13" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientListActivity"
+                  android:label="@string/button_show_users"
+                  android:theme="@android:style/Theme.Holo.Dialog"/>
+        <service android:name="wistron.pushmessage.server.BTCoreService" android:enabled="true"/>
+        <receiver android:name="wistron.pushmessage.server.BootUpReceiver" >
+	        <intent-filter>
+	            <action  android:name="android.intent.action.BOOT_COMPLETED" />
+	            <category android:name="android.intent.category.HOME" />
+	        </intent-filter>
+        </receiver>
+    </application>
+</manifest>

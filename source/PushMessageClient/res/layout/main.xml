@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AccountBtn" />
+
+    <Button
+        android:id="@+id/connect_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_connect" />
+
+    <Button
+        android:id="@+id/buttonSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SettingBtn"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" /><CheckBox
+        android:id="@+id/checkBoxAutoConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|fill_horizontal"
+        android:text="@string/AutoConnectCB" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEnable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_enable" />
+
+</LinearLayout>

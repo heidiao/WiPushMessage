@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Push Msg Server</string>
+    <string name="title_name">Push Message Server</string>
+    <string name="checkbox_enable">Enable</string>
+    <string name="checkbox_notification">Notification</string>
+    <string name="button_show_users">Show current users</string>
+    
+    <!-- ##############   toast information  ############## -->
+    <string name="toast_connected">Connected :</string>
+    <string name="toast_disconnect">Disconnect :</string>
+    <string name="toast_not_available">Bluetooth is not available</string>
+    <string name="toast_not_enabled">Bluetooth is not enabled</string>
+    <string name="toast_not_discovery">Bluetooth is not make discoverable</string>
+</resources>

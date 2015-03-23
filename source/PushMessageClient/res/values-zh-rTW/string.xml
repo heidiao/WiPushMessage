@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">PushMessageClient</string>
+    <string name="AccountBtn">帳號</string>
+    <string name="ConnectBtn">藍芽配對</string>
+    <string name="SettingBtn">設定</string>
+    <string name="LogoutBtn">登出</string>
+    <string name="ChangeUserbtn">變更使用者</string>
+    <string name="LoginBtn">登入</string>
+    <string name="AutoConnectCB">自動連線</string>
+    <string name="app_about">關於</string>
+    <string name="str_ok">確定</string>
+    <string name="label_enable">開啟</string>
+    <string name="title_account">帳號</string>
+    
+    <!--###################### button , textview ###################### -->
+    <string name="button_connect">Connect a device</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="label_connecting">Connecting...</string>
+    <string name="label_connected_to">Connected:</string>
+    <string name="label_blank"></string>
+    <string name="checkbox_auto_connect">Auto Connect</string>
+    
+    <!--###################### toast ###################### -->
+    <string name="toast_unable_connect">Unable to connect device</string>
+    <string name="toast_lost_connect">Lost connection</string>
+    <string name="toast_bt_not_available">Bluetooth is not available</string>
+    <string name="toast_bt_not_enabled">Bluetooth not enabled</string>
+    
+    <!--###################### Alert dialog ###################### -->
+    <string name="msg_confirm_disconnect">Are you sure to disconnect?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- ###################### Device list activity ###################### -->
+    <string name="title_paired_devices">Paired devices</string>
+    <string name="title_other_devices">Other devices</string>
+    <string name="button_scan">Scan</string>
+    <string name="none_paired">none paired</string>
+    <string name="scanning">scanning</string>
+    <string name="select_device">select device</string>
+    <string name="none_found">none found</string>
+    
+</resources>
